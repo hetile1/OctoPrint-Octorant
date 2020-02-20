@@ -4,21 +4,21 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "octorant"
+plugin_identifier = "3DM-octorant"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_octorant"
+plugin_package = "octoprint_3dm-octorant"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "OctoPrint-Octorant"
+plugin_name = "OctoPrint-3DM-Octorant"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
 plugin_version = "1.2.2"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = """Discord plugin for OctoPrint"""
+plugin_description = """3DMeltdown plugin for OctoPrint"""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
 plugin_author = "Benjamin Chanudet"
@@ -27,13 +27,13 @@ plugin_author = "Benjamin Chanudet"
 plugin_author_email = "hello@benjaminchanudet.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/bchanudet/OctoPrint-Octorant"
+plugin_url = "https://github.com/hetile-ssense/OctoPrint-Octorant"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "MIT"
 
 # Any additional requirements besides OctoPrint should be listed here
-plugin_requires = ["Pillow==5.0.0"]
+plugin_requires = ["Pillow==5.0.0", "discord-webhook==0.7.0"]
 
 ### --------------------------------------------------------------------------------------------------------------------
 ### More advanced options that you usually shouldn't have to touch follow after this point
